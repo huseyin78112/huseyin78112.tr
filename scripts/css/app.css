@@ -13,6 +13,9 @@ body {
     top: 0;
     width: 100%;
 }
+.header[expanded="true"] {
+    height: auto;
+}
 td .header-content {
     display: flex;
     align-items: center;
