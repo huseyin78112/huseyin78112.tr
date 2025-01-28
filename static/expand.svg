@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="41mm" height="27mm" viewBox="0 0 4100 2700" stroke-width="28.222" stroke-linejoin="round" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+ <path fill="rgb(255,255,255)" stroke="none" d="M 2050,500 L 0,500 0,0 4100,0 4100,500 2050,500 Z"/>
+ <rect fill="none" stroke="none" x="0" y="0" width="4101" height="501"/>
+ <path fill="rgb(255,255,255)" stroke="none" d="M 2050,1600 L 0,1600 0,1100 4100,1100 4100,1600 2050,1600 Z"/>
+ <rect fill="none" stroke="none" x="0" y="1100" width="4101" height="501"/>
+ <path fill="rgb(255,255,255)" stroke="none" d="M 2050,2700 L 0,2700 0,2200 4100,2200 4100,2700 2050,2700 Z"/>
+ <rect fill="none" stroke="none" x="0" y="2200" width="4101" height="501"/>
+</svg>
