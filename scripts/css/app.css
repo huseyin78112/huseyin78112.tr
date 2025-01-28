@@ -1,6 +1,10 @@
 html {
     font-family: 'Segoe UI', Arial, Roboto, sans-serif;
 }
+body {
+    margin-top: 50px;
+}
 .header {
     background-color: red;
+    height: 50px;
 }
