@@ -43,4 +43,7 @@ table {
     .header-table-small {
         display: none;
     }
+    .expand-header {
+        display: none;
+    }
 }
