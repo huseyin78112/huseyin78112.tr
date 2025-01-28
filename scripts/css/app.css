@@ -40,6 +40,9 @@ table {
     .header-content-container {
         display: none;
     }
+    .header-content-container td {
+        display: block;
+    }
     .header-content {
         height: 50px;
     }
