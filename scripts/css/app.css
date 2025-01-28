@@ -25,3 +25,7 @@ table {
     height: 50px;
     table-layout: fixed;
 }
+.header a, .header a.link {
+    color: inherit;
+    text-decoration: none;
+}
