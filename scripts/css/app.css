@@ -32,7 +32,7 @@ table {
     text-decoration: none;
 }
 @media (max-width: 640px) {
-    .header .header-content {
+    .header .header-content-container {
         display: none;
     }
     .header-content {
