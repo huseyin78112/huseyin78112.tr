@@ -4,12 +4,13 @@
     <link rel="stylesheet" href="/scripts/css/app.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="red" />
+    <script>var expanded = false; function expand() {var elem = document.getElementById("header-content-container"); expanded = !expanded; if (expanded) {elem.style = "display: block;";} else {elem.style = "";}}</script>
     <title>Huseyin78112</title>
   </head>
   <body>
     <div class="header">
-      <button class="expand-header"><img src="/static/expand.svg" /></button>
-      <div class=".header-content-container">
+      <button class="expand-header" onclick="expand()"><img src="/static/expand.svg" /></button>
+      <div class="header-content-container" id="header-content-container">
         <table>
           <tr>
             <td><span class="header-content">Huseyin78112</span></td>
