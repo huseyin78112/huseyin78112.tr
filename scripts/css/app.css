@@ -4,7 +4,7 @@ html {
 .expand-header {
     border: none;
     background-color: transparent;
-    height: 100%;
+    height: 50px;
 }
 body {
     margin-top: 50px;
@@ -43,11 +43,11 @@ table {
     .header-content {
         height: 50px;
     }
+    .header {
+        height: auto;
+    }
 }
 @media (min-width: 640px) {
-    .header-table-small {
-        display: none;
-    }
     .expand-header {
         display: none;
     }
