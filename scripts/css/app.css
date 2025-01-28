@@ -4,7 +4,7 @@ html {
 body {
     margin-top: 50px;
 }
-.header, .header-table-small {
+.header {
     background-color: red;
     height: 50px;
     color: white;
@@ -29,7 +29,7 @@ table {
     text-decoration: none;
 }
 @media (max-width: 640px) {
-    .header table {
+    .header > table {
         display: none;
     }
     .header-content {
