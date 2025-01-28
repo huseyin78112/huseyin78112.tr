@@ -36,6 +36,12 @@ table {
     color: inherit;
     text-decoration: none;
 }
+a:link, a:visited, a:active {
+    color: red;
+}
+::selection {
+    color: red;
+}
 @media (max-width: 639px) {
     .header-content-container {
         display: none;
