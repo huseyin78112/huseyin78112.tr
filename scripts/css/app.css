@@ -28,3 +28,19 @@ table {
     color: inherit;
     text-decoration: none;
 }
+@media (max-width: 640px) {
+    .header-table-small {
+        display: inline-block;
+    }
+    .header-table-large {
+        display: none;
+    }
+}
+@media (min-width: 640px) {
+    .header-table-small {
+        display: none;
+    }
+    .header-table-large {
+        display: inline-block;
+    }
+}
