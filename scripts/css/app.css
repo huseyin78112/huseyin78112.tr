@@ -4,6 +4,7 @@ html {
 .expand-header {
     border: none;
     background-color: transparent;
+    height: 100%;
 }
 body {
     margin-top: 50px;
@@ -36,7 +37,7 @@ table {
     text-decoration: none;
 }
 @media (max-width: 640px) {
-    .header .header-content-container {
+    .header-content-container {
         display: none;
     }
     .header-content {
