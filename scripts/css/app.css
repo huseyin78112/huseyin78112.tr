@@ -40,7 +40,8 @@ a:link, a:visited, a:active {
     color: red;
 }
 ::selection {
-    color: red;
+    background-color: red;
+    color: white;
 }
 @media (max-width: 639px) {
     .header-content-container {
