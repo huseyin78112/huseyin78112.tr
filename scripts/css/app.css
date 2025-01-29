@@ -18,7 +18,7 @@ body {
     top: 0;
     width: 100%;
 }
-.header[expanded="true"] {
+.header {
     height: auto;
 }
 td .header-content {
@@ -56,6 +56,10 @@ a:link, a:visited, a:active {
     }
     .header {
         height: auto;
+    }
+    .header[expanded="true"] {
+        height: 100%;
+        overflow-y: scroll;
     }
 }
 @media (min-width: 640px) {
