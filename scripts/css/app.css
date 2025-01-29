@@ -48,16 +48,16 @@ a:link, a:visited, a:active {
         display: none;
         max-height: 100%;
     }
+    .header-content-container[expanded="true"] {
+        display: block;
+        height: 100%;
+        overflow-y: scroll;
+    }
     .header-content-container td {
         display: block;
     }
     .header-content {
         height: 50px;
-    }
-    .header[expanded="true"] {
-        display: block;
-        height: 100%;
-        overflow-y: scroll;
     }
 }
 @media (min-width: 640px) {
