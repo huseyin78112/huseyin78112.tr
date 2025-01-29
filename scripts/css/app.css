@@ -50,6 +50,8 @@ a:link, a:visited, a:active {
     }
     .header-content-container[expanded="true"] {
         display: block;
+    }
+    .header[expanded="true"] {
         overflow-y: scroll;
     }
     .header-content-container td {
