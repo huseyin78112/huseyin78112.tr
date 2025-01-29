@@ -46,6 +46,7 @@ a:link, a:visited, a:active {
 @media (max-width: 639px) {
     .header-content-container {
         display: none;
+        max-height: 100%;
     }
     .header-content-container td {
         display: block;
@@ -60,8 +61,5 @@ a:link, a:visited, a:active {
 @media (min-width: 640px) {
     .expand-header {
         display: none;
-    }
-    .header-content-container table {
-        max-height: 100%;
     }
 }
