@@ -67,3 +67,6 @@ a:link, a:visited, a:active {
         display: none;
     }
 }
+code, pre {
+    font-size: 18px;
+}
