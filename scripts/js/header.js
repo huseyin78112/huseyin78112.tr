@@ -1,1 +1,1 @@
-var expanded = false; function expand() {var elem = document.getElementById("header-content-container"); expanded = !expanded; if (expanded) {elem.setAttribute("expanded", "true");} else {elem.removeAttribute("expanded");}}
+var expanded = false; function expand() {var elem = document.getElementById("header-content-container"); var elem2 = document.getElementById("header"); expanded = !expanded; if (expanded) {elem.setAttribute("expanded", "true"); elem2.setAttribute("expanded", "true");} else {elem.removeAttribute("expanded"); elem2.removeAttribute("expanded");}}
