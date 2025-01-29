@@ -61,4 +61,7 @@ a:link, a:visited, a:active {
     .expand-header {
         display: none;
     }
+    .header-content-container table {
+        max-height: 100%;
+    }
 }
