@@ -55,9 +55,11 @@ a:link, a:visited, a:active {
         height: 50px;
     }
     .header {
+        display: none;
         height: auto;
     }
     .header[expanded="true"] {
+        display: block;
         height: 100%;
         overflow-y: scroll;
     }
