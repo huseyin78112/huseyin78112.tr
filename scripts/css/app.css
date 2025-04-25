@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 html {
-    font-family: 'Segoe UI', Arial, Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
 }
 .expand-header {
     border: none;
@@ -68,5 +70,5 @@ a:link, a:visited, a:active {
     }
 }
 code, pre {
-    font-size: 18px;
+    font-family: 'Cascadia Mono', monospace;
 }
