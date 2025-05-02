@@ -72,7 +72,7 @@ a:link, a:visited, a:active {
 code, pre {
     font-family: 'Cascadia Mono', monospace;
 }
-@media (preferred-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;
         background-color: black;
