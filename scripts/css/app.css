@@ -11,8 +11,8 @@ html {
 body {
     margin: 66px 16px 16px 16px;
     border-radius: 8px;
-    background-color: #383838;
     padding: 8px;
+    background-color: #C7C7C7;
 }
 .header {
     background-color: red;
@@ -24,9 +24,6 @@ body {
     width: 100%;
     text-align: center;
     transition: height 0.5s ease-in-out;
-}
-.header {
-    height: auto;
 }
 td .header-content {
     display: flex;
@@ -82,5 +79,8 @@ code, pre {
         color-scheme: dark;
         background-color: black;
         color: white;
+    }
+    body {
+        background-color: #383838;
     }
 }
