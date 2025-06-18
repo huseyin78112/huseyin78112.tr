@@ -7,12 +7,12 @@ html {
     border: none;
     background-color: transparent;
     height: 50px;
-    text-align: center;
 }
 body {
     margin: 66px 16px 16px 16px;
     border-radius: 8px;
     background-color: #383838;
+    padding: 8px;
 }
 .header {
     background-color: red;
@@ -22,6 +22,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
+    text-align: center;
 }
 .header {
     height: auto;
