@@ -2,6 +2,7 @@
 html {
     font-family: Roboto, sans-serif;
     font-size: 14px;
+    background-color: white;
 }
 .expand-header {
     border: none;
