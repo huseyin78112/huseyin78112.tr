@@ -67,6 +67,9 @@ a:link, a:visited, a:active {
     .header-content {
         height: 50px;
     }
+    body {
+        margin: 66px 16px 16px 16px;
+    }
 }
 @media (min-width: 640px) {
     .expand-header {
