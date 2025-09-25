@@ -45,11 +45,6 @@ table {
 a:link, a:visited, a:active {
     color: red;
 }
-::selection {
-    background-color: red;
-    color: white;
-    text-shadow: 0 0 10px white;
-}
 @media (max-width: 639px) {
     .header-content-container {
         display: none;
